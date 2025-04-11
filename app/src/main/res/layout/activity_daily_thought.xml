@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F3F6F9"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_quote"
+            android:contentDescription="Quote icon"
+            android:layout_marginBottom="16dp"
+            app:tint="#9C27B0" />
+
+        <TextView
+            android:id="@+id/tvThought"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Loading daily thought..."
+            android:textSize="20sp"
+            android:textColor="#333333"
+            android:background="@drawable/thought_bg"
+            android:lineSpacingExtra="6dp"
+            android:padding="20dp"
+            android:textAlignment="center"
+            android:elevation="4dp"
+            android:alpha="0" />
+    </LinearLayout>
+
+</layout>

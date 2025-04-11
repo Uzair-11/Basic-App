@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Color Scheme -->
+    <color name="colorPrimary">#3F51B5</color> <!-- Indigo -->
+    <color name="colorPrimaryDark">#303F9F</color> <!-- Dark Indigo -->
+    <color name="colorAccent">#FF9800</color> <!-- Amber -->
+
+    <!-- Background and Surface -->
+    <color name="colorBackground">#ECEFF1</color> <!-- Light Blue Gray -->
+    <color name="colorSurface">#CFD8DC</color> <!-- Cool Surface -->
+
+    <!-- Text Colors -->
+    <color name="colorTextPrimary">#212121</color> <!-- Almost Black -->
+    <color name="colorTextSecondary">#757575</color> <!-- Medium Gray -->
+
+    <!-- Widget Colors -->
+    <color name="buttonColor">#5C6BC0</color> <!-- Muted Indigo -->
+    <color name="editTextColor">#E0E0E0</color> <!-- Light Gray -->
+
+    <!-- Common Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

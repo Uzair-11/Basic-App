@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btnCalculator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Calculator" />
+
+            <Button
+                android:id="@+id/btnWebView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Web View"
+                android:layout_marginTop="12dp"/>
+
+            <Button
+                android:id="@+id/btnDailyThought"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Daily Thought"
+                android:layout_marginTop="12dp"/>
+
+            <Button
+                android:id="@+id/btnRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Recycler View"
+                android:layout_marginTop="12dp"/>
+
+            <Button
+                android:id="@+id/btnShare"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Share Activity"
+                android:layout_marginTop="12dp"/>
+        </LinearLayout>
+    </ScrollView>
+</layout>
